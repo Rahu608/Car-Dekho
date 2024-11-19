@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.selection{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid red; */
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    justify-content: space-evenly;
+    background: #002b51;
+    color: white;
+}
+
+#car-dekho{
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    /* text-align: start;
+    justify-items: flex-start; */
+}
+
+.search{
+    height: 30px;
+    width: 300px;
+    display: flex;
+    margin: 5px;
+}
+.search:hover{
+    border: 2px solid yellow;
+}
+#search{
+    height: 30px;
+    width: 250px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#search-btn{
+    background: rgb(226, 180, 93);
+    height: 30px;
+    width: 48px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+a{
+    /* margin: 20px;
+    margin-top: 5px; */
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    border: 2px solid transparent;
+}
+a:hover{
+    border: 2px solid aqua;
+    border-radius: 5px;
+    
+}
+
+#login{
+    height: 30px;
+    width: 52px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+#sing-up{
+    height: 30px;
+    width: 52px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+/* nave bar ke niche hero tag */
+
+.hero{
+    height: 800px;
+    width: 100%;
+    background-image: url(car\ 01.avif);
+    background-size: cover;
+}
+#text01{
+    height: 150px;
+    width: 850px;
+    text-transform: capitalize;
+    /* border: 2px solid red; */
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+    justify-content: center;
+    color: black;
+}
+#text02{
+    height: 150px;
+    width: 600px;
+    /* border: 2px solid green; */
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+#Choice{
+    height: 60px;
+    width: 100%;
+    font-size: 50px;
+    background: rgb(174, 168, 168);
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+           /* many car first row */
+.first-row-first-car{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+/* first row first car */
+.row01{
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+#car01-main{
+    height: 400px;
+    width: 50%;
+    border: 2px solid rgb(34, 184, 49);
+    background: rgb(174, 168, 168);
+}
+#car01{
+    display: flex;
+}
+#first-car-image{
+    height: 300px;
+    width: 75%;
+    /* border: 2px solid rgb(34, 184, 49); */
+    border-radius: 5px;
+    background-image: url(car01.png);
+    background-size: cover;
+}
+#first-car-rating{
+    height: 300px;
+    width: 25%;
+    border: 2px solid pink;
+    text-align: center;
+    padding-top: 10%;
+    border-radius: 5px;
+}
+#car01-para01{
+    background: rgb(174, 168, 168);
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+}
+#car01-para02{
+    background: rgb(174, 168, 168);
+    font-size: 15px;
+    padding: 15px;
+}
+#price{
+    font-size: 20px;
+    font-weight: 1000px;
+}
+
+/* first row second car */
+.first-row-second-car{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+#car02-main{
+    height: 400px;
+    width: 50%;
+    border: 2px solid rgb(34, 184, 49);;
+    background: rgb(174, 168, 168);
+}
+#car02{
+    display: flex;
+}
+#second-car-image{
+    height: 300px;
+    width: 75%;
+    /* border: 2px solid rgb(34, 184, 49); */
+    border-radius: 5px;
+    background-image: url(car02.png);
+    /* border: 2px solid rgb(34, 184, 49); */
+    background-size: cover;
+}
+#second-car-rating{
+    height: 300px;
+    width: 25%;
+    border: 2px solid pink;
+    text-align: center;
+    padding-top: 10%;
+    border-radius: 5px;
+}
+#car02-para01{
+    background: rgb(174, 168, 168);
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+}
+#car02-para02{
+    background: rgb(174, 168, 168);
+    font-size: 15px;
+    padding: 15px;
+}
+#price{
+    font-size: 20px;
+    font-weight: 1000px;
+}
+
+
+
+/* second colum ke liye hai */
+
+#colum-main{
+    /* border: 5px solid red; */
+    margin-left: 50%;
+    margin-top: -800px;
+    height: 800px;
+    background: rgb(174, 168, 168);
+}
+/* colum me first  car */
+.colum-car{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid  greenyellow; */
+}
+#flex{
+    display: flex;
+}
+#image03{
+    height: 300px;
+    width: 75%;
+    background-image: url(car03.png);
+    background-size: cover;
+    /* border: 2px solid rgb(34, 184, 49); */
+    border-radius: 5px;
+}
+#car-name{
+    border: 2px solid pink;
+    height: 300px;
+    width: 25%;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 73px;
+}
+#colum-para{
+    font-size: 15px;
+    padding: 15px;
+}
+
+
+
+/* colum me second  car */
+.colum-car{
+    height: 400px;
+    width: 100%;
+    border: 2px solid  rgb(34, 184, 49);;
+}
+#flex{
+    display: flex;
+}
+#image{
+    height: 300px;
+    width: 75%;
+    background-image: url(car04.png);
+    background-size: cover;
+    /* border: 2px solid rgb(34, 184, 49); */
+    border-radius: 5px;
+}
+#car-name{
+    border: 2px solid pink;
+    height: 300px;
+    width: 25%;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 73px;
+}
+#colum-para{
+    font-size: 15px;
+    padding: 15px;
+}
+
+/* footer ke liye */
+.footer{
+    height: 300px;
+    width: 100%;
+    background-image: url(footer.png);
+    background-size: cover;
+
+}
+#welcome{
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: bold;
+    font-style: italic;
+    color: chocolate;
+    background-color: #002b51;
+}
+#hrline{
+    color: cadetblue;
+}
+
+
+
+
+/* button ke lye niche hai */
+
+#buy-btn{
+    height: 45px;
+    width: 90px;
+    background-color: rgb(67, 67, 226);
+    color: white;
+    padding: 5px;
+    margin-top: 80px;
+    border-radius: 9px;
+}
+#buy-btn:hover{
+    border-color: aqua;
+}
+#buy-btn04:hover{
+    border-color: aqua;
+}
+#buy-btn04{
+    height: 45px;
+    width: 90px;
+    background-color: rgb(67, 67, 226);
+    color: white;
+    padding: 5px;
+    margin-top: 24px;
+    border-radius: 9px;
+}
+#buy-btn01{
+    height: 45px;
+    width: 90px;
+    background-color: rgb(67, 67, 226);
+    color: white;
+    padding: 5px;
+    margin-top: 59px;
+    border-radius: 9px;
+}
+#buy-btn01:hover{
+    border-color: aqua;
+}
+#buy-btn02{
+    height: 45px;
+    width: 90px;
+    background-color: rgb(67, 67, 226);
+    color: white;
+    padding: 5px;
+    margin-top: 40px;
+    border-radius: 9px;
+}
+#buy-btn02:hover{
+    border-color: aqua;
+}
